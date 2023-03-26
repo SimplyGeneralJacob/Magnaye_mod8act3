@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">SimplyInc.</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <img src="images/hill1.png" id="hill1">
+        <img src="images/hill2.png" id="hill2">
+        <img src="images/hill3.png" id="hill3">
+        <img src="images/hill4.png" id="hill4">
+        <img src="images/hill5.png" id="hill5">
+        <img src="images/tree.png" id="tree">
+        <h2 id="text">SimplyInc Website</h2>
+        <img src="images/leaf.png" id="leaf">
+        <img src="images/plant.png" id="plant">
+    </section>
+
+    <section class="sec">
+        <h3>DATABASE OF THE RESULTS OF JOB APPLICATIONS:</h3>
+        
+        <h5>Name: <input type="text" readonly id="name" placeholder="John Doe"></h5>
+        <h5>Gender: <input type="text" readonly id="gender" placeholder="Male or Female"></h5>
+        <h5>Age: <input type="number" readonly id="age" placeholder="18-60"></h5>
+        <h5>Nationality: <input type="text" readonly id="nation" placeholder="Philippines"></h5>
+        <div id="scores">
+            <p>Skills Assessment Test <input type="number" readonly id="skills" placeholder="0-20"></p>
+            <p>Emotional Intelligence Test <input type="number" readonly id="emotion" placeholder="0-20"></p>
+            <p>Practical Test <input type="number" readonly id="practical" placeholder="0-20"></p>
+        </div>
+    
+        <div>
+        <h4>Summary</h4>
+        <p>The test that this person had the highest score in is the: <span id="highScore"></span></p>
+        <p>The first letter of the name of the job applicant is: <span id="firstLetter"></span></p>
+        <p>The 3 tests took this person a total of: <span id="timeTook"></span></p>
+
+        <button id="generate">Generate Person's Results: </button>
+        </div>
+    </section>
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>

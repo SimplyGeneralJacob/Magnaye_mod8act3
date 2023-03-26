@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px ;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.navigation a:hover, 
+.navigation a.active{
+    background: #359381;
+    color: #fff;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    
+    background-color: #003329;
+    padding: 100px;
+}
+
+.sec h3 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec h5, p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+.sec h4 {
+    font-size: 2em;
+    color: #fff;
+    font-weight: #400;
+    margin: 10px 5px;
+}
+.sec input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 5px;
+    background: #003329;
+    color: #fff;
+}
+
+.sec button {
+    align-items: center;
+    margin: 10px 670px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #003329;
+}
+
+.sec button:hover {
+    background-color: #004529;
+    border: 2px solid black;
+    color: #fff;
+}
