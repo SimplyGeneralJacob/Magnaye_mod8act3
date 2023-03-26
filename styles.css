@@ -75,7 +75,6 @@ header {
 
 .sec {
     position: relative;
-    
     background-color: #003329;
     padding: 100px;
 }
@@ -116,6 +115,7 @@ header {
     border: 1px solid black;
     border-radius: 10px;
     background: #003329;
+    color: #fff;
 }
 
 .sec button:hover {
