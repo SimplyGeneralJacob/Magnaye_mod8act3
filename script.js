@@ -81,7 +81,7 @@ const setHighestScore = () => {
         document.getElementById("highScore").innerText = "Emotional and Practical Assessment Test with " + num2.value + " and " + num3.value + "!"
     }
     else if (+num1.value == +num3.value){
-        document.getElementById("highScore").innerText = "Skils and Practical Assessment Test with " + num1.value + " and " + num2.value + "!"
+        document.getElementById("highScore").innerText = "Skils and Practical Assessment Test with " + num1.value + " and " + num3.value + "!"
     }
 }
 document.getElementById("generate").addEventListener("click", setHighestScore)
